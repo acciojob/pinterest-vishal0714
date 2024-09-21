@@ -1,1 +1,34 @@
 /*  your css code here. If applicable */
+*{
+	margin: 0;
+	padding: 0;
+}
+.hero{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.hero img{
+	height: 100vh;
+	width: 65vw;
+	object-fit: cover;
+}
+
+.hero>div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 12px;
+	flex-grow: 1;
+	gap: ;
+}
+
+button {
+	border: none;
+	outline: none;
+	background: red;
+	color: white;
+	padding: 6.5px;
+	border-radius: 3px;
+}
